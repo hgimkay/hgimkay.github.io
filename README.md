@@ -1,27 +1,37 @@
-# Project Title
+# "Scraping Twitter Data and Conducting VADER Sentiment Analysis" (Python Tutorial for Social Science Researcher)
 
-One Paragraph of project description goes here
+Social media facilitates web-based communication between people, allowing users to create and share contetents with others. Twitter is one such platform that provides the general public with a venue to share their opinions in a public forum. These characteristics intrigue social science researchers because they can study how people communicate each other in an online world about diverse topics such as politics, health, and social issues. In this tutorial, I will walk you through each step of conducting sentiment analysis on Twitter data.
 
-## Getting Started
+## 1. What Do You Need?
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+This tutorial is based on **Python 3**. Therefore, you must install [Python 3](https://www.python.org/downloads/) on your machine. Plus, you will also need to install Tweepy, NLTK (Natural Language Toolkit), Tweepy.
 
-### Prerequisites
 
-What things you need to install the software and how to install them
+### 1.1 Installing 
+
+If you use [Jupyter Notebook](https://jupyter.org/), you can easily download both Tweepy and NLTK using pip. If you are using other applications (e.g., Window Shell),  detailed instructions on how to inistall [Tweepy](https://docs.tweepy.org/en/stable/getting_started.html) and [NLTK](https://www.nltk.org/install.html) are availabe in the links.
+
+Run the line below in your Jupyter Notebook to install through pip.
 
 ```
-Give examples
+pip install tweepy
+pip install nltk
 ```
 
-### Installing
+## 2. Scraping Twitter
+
+### 2.1 Code
+
+
 
 A step by step series of examples that tell you how to get a development env running
 
 Say what the step will be
 
 ```
-Give the example
+tweets = api.search_tweets(q="Putin -filter:retweets", lang="en", result_type="recent", count=10, tweet_mode='extended')
+for tweet in tweets:
+    print(tweet.full_text)
 ```
 
 And repeat
