@@ -220,7 +220,7 @@ I have zero empathy for him. I don't care what they do to him. Also, look at Saa
 ```
 
 ### 3.4 Evaluation 
-NLTK's VADER sentiment analysis model is a pre-trained model that has been demonstrated to be highly accurate (see Hutto & Gilbert, 2014; achieving an F1 score of 0.96 with the Big Tweet Dataset). It has been widely used in various disciplines such as Political Science, Linguistics, Communication, and Psychology as a popular choice for sentiment analysis. 
+NLTK's VADER sentiment analysis model is a pre-trained model that has been demonstrated to be highly accurate (see [Hutto & Gilbert, 2014](https://ojs.aaai.org/index.php/ICWSM/article/view/14550); achieving an F1 score of 0.96 with the Big Tweet Dataset). It has been widely used in various disciplines such as Political Science, Linguistics, Communication, and Psychology as a popular choice for sentiment analysis. 
 
 That said, although I only have 10 tweets, I conducted a simple evaluation of how well VADER performs on my sample.
 
@@ -272,3 +272,6 @@ If you have any questions or comments, please feel free to contact me via [email
 ## License/Version
 Tweepy: [MIT License](https://github.com/tweepy/tweepy/blob/master/LICENSE)
 NLTK: [Apache License 2.0](https://github.com/nltk/nltk/blob/develop/LICENSE.txt)
+
+## References
+Hutto, C., & Gilbert, E. (2014). VADER: A Parsimonious Rule-Based Model for Sentiment Analysis of Social Media Text. Proceedings of the International AAAI Conference on Web and Social Media, 8(1), 216-225. https://doi.org/10.1609/icwsm.v8i1.14550
