@@ -264,7 +264,7 @@ F1 score: 0.72
 
 While this approach may not be the perfect method for analyzing Twitter data, I believe that using VADER to understand Twitter users' attitudes towards certain topics is an effective technique. It's worth noting that there are more sophisticated ways of conducting sentiment analysis at a higher level. However, this tutorial is designed to assist early scholars interested in analyzing text data from microblogging sites like Twitter or Reddit.
 
-If you have any questions or comments, please feel free to contact me via [email](hgimkay@arizona.edu).
+If you have any questions or comments, please feel free to contact me via [email](hgimkay@gmail.com).
 
 ## Authors
 * **Dr. Hyeonchang Gim (Kay)** - PhD in Communication: [Google Scholar](https://scholar.google.com/citations?user=29oM56gAAAAJ&hl=en), [ORCID](https://orcid.org/0000-0003-4891-6491)
