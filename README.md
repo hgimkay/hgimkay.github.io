@@ -267,7 +267,7 @@ While this approach may not be the perfect method for analyzing Twitter data, I 
 If you have any questions or comments, please feel free to contact me via [email](hgimkay@arizona.edu).
 
 ## Authors
-* **Hyeonchang Gim (Kay)** - PhD Candidate in Communication: [Google Scholar](https://scholar.google.com/citations?user=29oM56gAAAAJ&hl=en), [ORCID](https://orcid.org/0000-0003-4891-6491)
+* **Dr. Hyeonchang Gim (Kay)** - PhD in Communication: [Google Scholar](https://scholar.google.com/citations?user=29oM56gAAAAJ&hl=en), [ORCID](https://orcid.org/0000-0003-4891-6491)
 
 ## License/Version
 Tweepy: [MIT License](https://github.com/tweepy/tweepy/blob/master/LICENSE)
